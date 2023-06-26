@@ -9,9 +9,6 @@ API for cinema with the ability to view movie screenings and buy tickets. You ca
 1. Clone the repository:
 git clone https://github.com/MaksNochvai/dockerize_drf_cinema.git
 
-bash
-Copy code
-
 2. Set up a virtual environment and activate it:
 ```
 python -m venv venv
@@ -20,7 +17,6 @@ venv\Scripts\activate # Activation of the virtual environment (Windows)
 ```
 3. Install the required dependencies:
 ```
-Copy code
 pip install -r requirements.txt
 ```
 4. Set the following environment variables:
