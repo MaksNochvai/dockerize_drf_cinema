@@ -1,10 +1,14 @@
 # Cinema API
 
+-----------------------------------
+
 API for cinema with the ability to view movie screenings and buy tickets. You can also add or view genres and actors, available screening locations, and get a description of the movie with its duration and all its data.
 
 ## Installing using GitHub
 
-### Install PostgreSQL and create a database
+-----------------------------------
+
+Install PostgreSQL and create a database
 
 1. Clone the repository:
 git clone https://github.com/MaksNochvai/dockerize_drf_cinema.git
@@ -32,14 +36,28 @@ set SECRET_KEY=<your SECRET_KEY>
 python manage.py migrate
 python manage.py runserver
 ```
-
 # Run with docker
-## docker should be installed
+
+-----------------------------------
+docker should be installed
 ```
 docker-compose build
 docker-compose up
 ```
 # Getting access
 
+------------------------------------
 - create user via /api/user/register/
 - get access token via /api/user/token
+
+# Features
+
+-------------------------------------
+- JWT authenticated
+- Admin panel /admin/
+- Managing orders and tickets
+- Documentation is located at /api/doc/swagger/
+- Creating movies with genres and actors
+- Creating cinema halls
+- Adding movie sessions
+- Filtering movies and movie sessions
