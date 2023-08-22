@@ -11,7 +11,7 @@ API for cinema with the ability to view movie screenings and buy tickets. You ca
 Install PostgreSQL and create a database
 
 1. Clone the repository:
-git clone https://github.com/MaksNochvai/dockerize_drf_cinema.git
+git clone https://github.com/MaksNochvai/py_moviewave_api.git
 
 2. Set up a virtual environment and activate it:
 ```
